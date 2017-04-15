@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<unistd.h>
+
+int	main(int *a, int *b)
+{
+
+  int c = 10;
+  int d = 20;
+  
+  a = &c;
+  b = &d;
+  
+  if(a = &c)
+    {
+      printf("%d" , *b);
+    }    
+  
+  if(b =&d)
+    {
+      printf("%d" , *a);
+    } 
+  
+  return 0; 
+}
+
+// Je ne trouve pas le pb de synthaxe pour que le programme se compile correctement.

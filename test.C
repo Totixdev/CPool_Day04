@@ -1,0 +1,15 @@
+#include<unistd.h>
+#include<stdio.h>
+
+int	main()
+
+{
+  int age = 10;
+
+  int *pointeur = &age;
+
+  printf( "%p", pointeur);
+
+
+  return 0;
+}
